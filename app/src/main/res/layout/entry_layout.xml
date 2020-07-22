@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/listDescription"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/description_label"
+        android:textColor="#000000"
+        app:autoSizeTextType="uniform"/>
+
+    <TextView
+        android:id="@+id/listAmount"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/amount_label"
+        android:textColor="#000000"
+        app:autoSizeTextType="uniform"/>
+
+</LinearLayout>
